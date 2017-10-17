@@ -14,7 +14,7 @@ class CreateCostumes < ActiveRecord::Migration[5.1]
       t.string :name
       t.integer :price
       t.text :image_url
-      t.integer :size
+      t.string :size
       t.timestamps
     end
   end
